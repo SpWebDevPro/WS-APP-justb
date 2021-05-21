@@ -1,0 +1,7 @@
+{
+  "name": "latepoint-google-calendar",
+  "version": "1.0.0",
+  "require": {
+    "google/apiclient" : "^2.0"
+  }
+}

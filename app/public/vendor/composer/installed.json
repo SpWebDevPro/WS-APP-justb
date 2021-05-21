@@ -1,0 +1,229 @@
+[
+    {
+        "name": "SpWebDevPro/Divi-enfantresea",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:SpWebDevPro/Divi-enfantresea.git",
+            "reference": "656d90d10d353e300634608273d1c96a265951aa"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SpWebDevPro/Divi-enfantresea/zipball/656d90d10d353e300634608273d1c96a265951aa",
+            "reference": "656d90d10d353e300634608273d1c96a265951aa",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2020-10-13T08:41:03+00:00",
+        "type": "wordpress-theme",
+        "installation-source": "dist",
+        "description": "Divi-enfantresea comprend les fonctions necessaires au bon fonctionnement de resea",
+        "support": {
+            "source": "https://github.com/SpWebDevPro/Divi-enfantresea/tree/v1.0.1",
+            "issues": "https://github.com/SpWebDevPro/Divi-enfantresea/issues"
+        }
+    },
+    {
+        "name": "SpWebDevPro/latepoint-google-calendar",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:SpWebDevPro/latepoint-google-calendar.git",
+            "reference": "397e44f67c101799f3480595c062e9fd679cfc77"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SpWebDevPro/latepoint-google-calendar/zipball/397e44f67c101799f3480595c062e9fd679cfc77",
+            "reference": "397e44f67c101799f3480595c062e9fd679cfc77",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2020-10-12T12:39:49+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "description": "addon for sync google calendar with latepoint-resea",
+        "support": {
+            "source": "https://github.com/SpWebDevPro/latepoint-google-calendar/tree/v1.0.1",
+            "issues": "https://github.com/SpWebDevPro/latepoint-google-calendar/issues"
+        }
+    },
+    {
+        "name": "SpWebDevPro/latepoint-resea",
+        "version": "v1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "git@github.com:SpWebDevPro/latepoint-resea.git",
+            "reference": "5214a1630c9486ef0d6948c322d7bf8c6cb802a4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/SpWebDevPro/latepoint-resea/zipball/5214a1630c9486ef0d6948c322d7bf8c6cb802a4",
+            "reference": "5214a1630c9486ef0d6948c322d7bf8c6cb802a4",
+            "shasum": ""
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "time": "2020-10-12T12:35:17+00:00",
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "description": "offer booking ability to your customer via your own mobile application",
+        "support": {
+            "source": "https://github.com/SpWebDevPro/latepoint-resea/tree/v1.0.1",
+            "issues": "https://github.com/SpWebDevPro/latepoint-resea/issues"
+        }
+    },
+    {
+        "name": "composer/installers",
+        "version": "v1.10.0",
+        "version_normalized": "1.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/composer/installers.git",
+            "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/composer/installers/zipball/1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+            "reference": "1a0357fccad9d1cc1ea0c9a05b8847fbccccb78d",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0 || ^2.0"
+        },
+        "replace": {
+            "roundcube/plugin-installer": "*",
+            "shama/baton": "*"
+        },
+        "require-dev": {
+            "composer/composer": "1.6.* || ^2.0",
+            "composer/semver": "^1 || ^3",
+            "phpstan/phpstan": "^0.12.55",
+            "phpstan/phpstan-phpunit": "^0.12.16",
+            "symfony/phpunit-bridge": "^4.2 || ^5",
+            "symfony/process": "^2.3"
+        },
+        "time": "2021-01-14T11:07:16+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Composer\\Installers\\Plugin",
+            "branch-alias": {
+                "dev-main": "1.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Composer\\Installers\\": "src/Composer/Installers"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kyle Robinson Young",
+                "email": "kyle@dontkry.com",
+                "homepage": "https://github.com/shama"
+            }
+        ],
+        "description": "A multi-framework Composer library installer",
+        "homepage": "https://composer.github.io/installers/",
+        "keywords": [
+            "Craft",
+            "Dolibarr",
+            "Eliasis",
+            "Hurad",
+            "ImageCMS",
+            "Kanboard",
+            "Lan Management System",
+            "MODX Evo",
+            "MantisBT",
+            "Mautic",
+            "Maya",
+            "OXID",
+            "Plentymarkets",
+            "Porto",
+            "RadPHP",
+            "SMF",
+            "Starbug",
+            "Thelia",
+            "Whmcs",
+            "WolfCMS",
+            "agl",
+            "aimeos",
+            "annotatecms",
+            "attogram",
+            "bitrix",
+            "cakephp",
+            "chef",
+            "cockpit",
+            "codeigniter",
+            "concrete5",
+            "croogo",
+            "dokuwiki",
+            "drupal",
+            "eZ Platform",
+            "elgg",
+            "expressionengine",
+            "fuelphp",
+            "grav",
+            "installer",
+            "itop",
+            "joomla",
+            "known",
+            "kohana",
+            "laravel",
+            "lavalite",
+            "lithium",
+            "magento",
+            "majima",
+            "mako",
+            "mediawiki",
+            "modulework",
+            "modx",
+            "moodle",
+            "osclass",
+            "phpbb",
+            "piwik",
+            "ppi",
+            "processwire",
+            "puppet",
+            "pxcms",
+            "reindex",
+            "roundcube",
+            "shopware",
+            "silverstripe",
+            "sydes",
+            "sylius",
+            "symfony",
+            "typo3",
+            "wordpress",
+            "yawik",
+            "zend",
+            "zikula"
+        ],
+        "funding": [
+            {
+                "url": "https://packagist.com",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/composer",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                "type": "tidelift"
+            }
+        ]
+    }
+]

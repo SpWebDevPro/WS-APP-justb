@@ -1,0 +1,8 @@
+{
+    "name": "SpWebDevPro/latepoint-resea",
+    "description": "offer booking ability to your customer via your own mobile application",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

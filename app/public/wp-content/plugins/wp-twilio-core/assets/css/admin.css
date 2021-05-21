@@ -1,0 +1,121 @@
+
+/*= Admin Notice
+---------------------------------------*/
+.notice.wpsms-message {
+  padding: 20px;
+  border-left-color: #E61E6E; }
+  .notice.wpsms-message .wpsms-message-inner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+			
+			
+	 .notice.wpsms-message .wpsms-message-inner h2 {	
+	 
+	 margin-bottom: 10px;
+	 }	
+	
+
+h3.wptwilioskin {
+	
+	
+}	
+  .notice.wpsms-message .wpsms-message-icon ,  .notice.wpsms-message .wpsms-adforest-icon  {
+  
+	height: 100px;
+	width: 80px;
+	background: transparent url('../images/wpsmslogo.png') 0 15px no-repeat;
+	background-size: contain;
+   }
+     .notice.wpsms-message .wpsms-message-icon:hover { 
+	 opacity: 0.8
+	 }
+	  .notice.wpsms-message .wpsms-message-icon a {
+	  display: block;
+	  height: 100px;
+	  width: 80px;
+	  text-indent: -9999px;
+	  }
+	 .notice.wpsms-message .wpsms-adforest-icon  {
+		 background: transparent url('../images/wpsmsadforestilogo.png') 0 0px no-repeat;
+		 background-size: contain;
+		 width: 145px;
+	 }
+	 
+  .notice.wpsms-message .wpsms-message-content {
+    padding: 0 20px; }
+  .notice.wpsms-message p {
+    padding: 0;
+    margin: 0; font-size: 14px }
+  .notice.wpsms-message h3 {
+    margin: 0 0 5px; }
+  .notice.wpsms-message .wpsms-message-action {
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: auto; }
+    .notice.wpsms-message .wpsms-message-action .wpsms-button {
+      background-color: #D30C5C;
+      color: #fff;
+      border-color: #7c1337;
+      -webkit-box-shadow: 0 1px 0 #7c1337;
+              box-shadow: 0 1px 0 #7c1337;
+      padding: 5px 30px;
+      height: auto;
+      line-height: 20px;
+      text-transform: capitalize; }
+      .notice.wpsms-message .wpsms-message-action .wpsms-button i {
+        margin-right: 5px; }
+      .notice.wpsms-message .wpsms-message-action .wpsms-button:hover {
+        background-color: #a0124a; }
+      .notice.wpsms-message .wpsms-message-action .wpsms-button:active {
+        -webkit-box-shadow: inset 0 1px 0 #7c1337;
+                box-shadow: inset 0 1px 0 #7c1337;
+        -webkit-transform: translateY(1px);
+            -ms-transform: translateY(1px);
+                transform: translateY(1px); }
+    .notice.wpsms-message .wpsms-message-action .wpsms-link {
+      padding-top: 5px; }
+  .notice.wpsms-message .wpsms-message-actions {
+    margin-top: 10px; }
+    .notice.wpsms-message .wpsms-message-actions .button.button-primary {
+      margin-right: 5px; background: #E61E6E;
+border-color: #BD1659	  }
+
+.notice.wpsms-message-announcement {
+  border-color: #D30C5C; }
+  .notice.wpsms-message-announcement a {
+    color: #D30C5C; }
+
+@media (min-width: 1200px) {
+  .wpsms-message-action {
+    padding-right: 10px; } }
+
+@media (max-width: 600px) {
+  .notice.wpsms-message {
+    padding: 20px; }
+    .notice.wpsms-message .wpsms-message-inner {
+      display: block;
+      text-align: center; }
+      .notice.wpsms-message .wpsms-message-inner .wpsms-message-icon,
+      .notice.wpsms-message .wpsms-message-inner .wpsms-message-content,
+      .notice.wpsms-message .wpsms-message-inner .wpsms-message-action {
+        display: block; }
+      .notice.wpsms-message .wpsms-message-inner .wpsms-message-action {
+        text-align: center; }
+      .notice.wpsms-message .wpsms-message-inner .wpsms-message-icon {
+        width: auto; }
+      .notice.wpsms-message .wpsms-message-inner .wpsms-message-content {
+        padding: 10px 0; } }

@@ -1,0 +1,8 @@
+{
+    "name": "SpWebDevPro/Divi-enfantresea",
+    "description": "Divi-enfantresea comprend les fonctions necessaires au bon fonctionnement de resea",
+    "type": "wordpress-theme",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

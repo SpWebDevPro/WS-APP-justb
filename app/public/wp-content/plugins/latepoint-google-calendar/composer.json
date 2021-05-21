@@ -1,0 +1,8 @@
+{
+    "name": "SpWebDevPro/latepoint-google-calendar",
+    "description": "addon for sync google calendar with latepoint-resea",
+    "type": "wordpress-plugin",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

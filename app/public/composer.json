@@ -1,0 +1,23 @@
+{
+    "name": "testcomposer/wordpress-site",
+    "description": "testcomposer pour importer plugin perso from github",
+    "require": {
+        "spwebdevpro/divi-enfantresea": "v1.0.1",
+        "spwebdevpro/latepoint-resea": "v1.0.1",
+        "spwebdevpro/latepoint-google-calendar": "v1.0.1"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/SpWebDevPro/Divi-enfantresea.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/SpWebDevPro/latepoint-resea.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/SpWebDevPro/latepoint-google-calendar.git"
+        }
+    ]
+}
