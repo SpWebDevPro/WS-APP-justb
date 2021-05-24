@@ -19,5 +19,5 @@ App has been personnalized with icones, splashscreens, webmanifest for PWA, and 
 
 ![ScreenShot2](https://github.com/SpWebDevPro/WS-APP-justb/blob/master/img/4.png)  
 
-![ScreenShot3](https://github.com/SpWebDevPro/WS-APP-justb/blob/master/img/ust-B-Coaching-Bar.png)  
+![ScreenShot3](https://github.com/SpWebDevPro/WS-APP-justb/blob/master/img/Just-B-Coaching-Bar.png)  
 
